@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/activity_danhsachtheloaitheochude.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/activity_dialog_offline_adapter.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/activity_play_nhac.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/activity_play_nhac_offline.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/activity_tai_khoan_ca_nhan.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/dong_album.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/dong_banner.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/dong_playlist.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/dong_search_bai_hat.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/dong_the_loai_theo_chu_de.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/fragment_album_hot.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/fragment_bai_hat_thich_nhat.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/fragment_banner.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/fragment_ca_nhan.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/fragment_chude_theloai_today.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/fragment_loi_bai_hat.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/fragment_tim_kiem.xml" value="0.2" />
+        <entry key="..\:/Users/Thuancntt/Downloads/Nhom1/Nhom1/AppNhac/app/src/main/res/layout/fragment_trang_chu.xml" value="0.13179347826086957" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

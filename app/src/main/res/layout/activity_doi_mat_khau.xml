@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/custom_background_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DoiMatKhauActivity">
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:src="@drawable/usertoolbar"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="90dp"
+        android:layout_height="90dp"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/edittextmatkhauhientai"
+        android:paddingLeft="10dp"
+        android:hint="Mật khẩu hiện tại"
+        android:background="#ffffff"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:drawableLeft = "@drawable/iconpassword" />
+    <EditText
+        android:id="@+id/edittextmatkhaumoi"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:hint="Nhập mật khẩu mới"
+        android:background="#ffffff"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:drawableLeft = "@drawable/iconpassword" />
+    <EditText
+        android:id="@+id/edittextxacnhanmatkhau"
+        android:paddingLeft="5dp"
+        android:inputType="textPassword"
+        android:hint="Xác nhân mật khẩu"
+        android:background="#ffffff"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:drawableLeft = "@drawable/iconpassword" />
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginTop="30dp"
+            android:textColor="#F1E756"
+            android:text="Xác nhận"
+            android:background="#CD7979"
+            android:id="@+id/buttonxacnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="#F1E756"
+            android:text="Hủy"
+            android:background="#CD7979"
+            android:id="@+id/buttonhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</LinearLayout>

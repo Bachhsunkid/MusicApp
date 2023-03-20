@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/custom_background_login"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DangKyActivity">
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:src="@drawable/nhac"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="90dp"
+        android:layout_height="90dp"/>
+
+    <EditText
+        android:id="@+id/edittextdangkytaikhoan"
+        android:paddingLeft="10dp"
+        android:hint="Tài khoản"
+        android:background="#ffffff"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:drawableLeft = "@drawable/iconusername" />
+    <EditText
+        android:id="@+id/edittextdangkymatkhau"
+        android:paddingLeft="5dp"
+        android:hint="Mật khẩu"
+        android:background="#ffffff"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:drawableLeft = "@drawable/iconpassword" />
+    <EditText
+        android:id="@+id/edittextxacnhanmatkhau"
+        android:paddingLeft="5dp"
+        android:hint="Xác nhân mật khẩu"
+        android:background="#ffffff"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:drawableLeft = "@drawable/iconpassword" />
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#F1E756"
+        android:text="đăng ký"
+        android:background="#CD7979"
+        android:id="@+id/buttondangky"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffff"
+            android:text="Đã có tài khoản?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:id="@+id/textviewdangnhap"
+            android:textStyle="italic"
+            android:textColor="#F1E756"
+            android:text="ĐĂNG NHẬP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
